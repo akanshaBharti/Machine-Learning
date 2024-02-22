@@ -67,7 +67,7 @@ for k in range(1, len(selected_features) + 1):
 
     print(f"Features: {feature_subset}, Accuracy: {accuracy*100:.2f}%")
 
-results_df = pd.DataFrame(results_list)
+results_df = pd.DataFrame(results_list) 
 print(results_df)
 results_df.to_excel('appleQualityResults.xlsx', index=False)
 
